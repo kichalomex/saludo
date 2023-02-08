@@ -9,7 +9,7 @@ const App = () => {
   const age = 18
   return(
     <div>
-      <h1>Greetings</h1>    
+      <h1>Greetings!</h1>    
       <Hello name={name} age={age}/>
       <Hello name='Mary' age={18+3}/>
     </div>
